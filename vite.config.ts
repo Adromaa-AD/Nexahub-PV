@@ -10,12 +10,13 @@ export default defineConfig({
   base: "/Nexahub-PV/",
 
   tanstackStart: {
-  prerender: {
-    enabled: true,
-    crawlLinks: true,
-  },
+    prerender: {
+      enabled: true,
+      crawlLinks: true,
+    },
 
-  server: {
-    entry: "server",
+    server: {
+      entry: "server",
+    },
   },
-}
+});
